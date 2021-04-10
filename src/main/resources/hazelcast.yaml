@@ -1,0 +1,11 @@
+hazelcast:
+  network:
+    join:
+      multicast:
+        enabled: false
+      aws:
+        enabled: true
+    interfaces:
+      enabled: true
+      interfaces:
+        - 172.31.*.*
